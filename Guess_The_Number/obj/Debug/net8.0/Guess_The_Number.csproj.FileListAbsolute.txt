@@ -1,0 +1,15 @@
+C:\Users\lucio\OneDrive\Escritorio\Laboratoria\DEV013-guess-the-number\Guess_The_Number\bin\Debug\net8.0\Guess_The_Number.exe
+C:\Users\lucio\OneDrive\Escritorio\Laboratoria\DEV013-guess-the-number\Guess_The_Number\bin\Debug\net8.0\Guess_The_Number.deps.json
+C:\Users\lucio\OneDrive\Escritorio\Laboratoria\DEV013-guess-the-number\Guess_The_Number\bin\Debug\net8.0\Guess_The_Number.runtimeconfig.json
+C:\Users\lucio\OneDrive\Escritorio\Laboratoria\DEV013-guess-the-number\Guess_The_Number\bin\Debug\net8.0\Guess_The_Number.dll
+C:\Users\lucio\OneDrive\Escritorio\Laboratoria\DEV013-guess-the-number\Guess_The_Number\bin\Debug\net8.0\Guess_The_Number.pdb
+C:\Users\lucio\OneDrive\Escritorio\Laboratoria\DEV013-guess-the-number\Guess_The_Number\obj\Debug\net8.0\Guess_The_Number.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\lucio\OneDrive\Escritorio\Laboratoria\DEV013-guess-the-number\Guess_The_Number\obj\Debug\net8.0\Guess_The_Number.AssemblyInfoInputs.cache
+C:\Users\lucio\OneDrive\Escritorio\Laboratoria\DEV013-guess-the-number\Guess_The_Number\obj\Debug\net8.0\Guess_The_Number.AssemblyInfo.cs
+C:\Users\lucio\OneDrive\Escritorio\Laboratoria\DEV013-guess-the-number\Guess_The_Number\obj\Debug\net8.0\Guess_The_Number.csproj.CoreCompileInputs.cache
+C:\Users\lucio\OneDrive\Escritorio\Laboratoria\DEV013-guess-the-number\Guess_The_Number\obj\Debug\net8.0\Guess_The_Number.sourcelink.json
+C:\Users\lucio\OneDrive\Escritorio\Laboratoria\DEV013-guess-the-number\Guess_The_Number\obj\Debug\net8.0\Guess_The_Number.dll
+C:\Users\lucio\OneDrive\Escritorio\Laboratoria\DEV013-guess-the-number\Guess_The_Number\obj\Debug\net8.0\refint\Guess_The_Number.dll
+C:\Users\lucio\OneDrive\Escritorio\Laboratoria\DEV013-guess-the-number\Guess_The_Number\obj\Debug\net8.0\Guess_The_Number.pdb
+C:\Users\lucio\OneDrive\Escritorio\Laboratoria\DEV013-guess-the-number\Guess_The_Number\obj\Debug\net8.0\Guess_The_Number.genruntimeconfig.cache
+C:\Users\lucio\OneDrive\Escritorio\Laboratoria\DEV013-guess-the-number\Guess_The_Number\obj\Debug\net8.0\ref\Guess_The_Number.dll
