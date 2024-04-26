@@ -1,30 +1,18 @@
-
- public class Player{
+ public abstract class Player{
      public string nameGame {get ; private set; }
-     private int numberIntent ;
-    public Player(string nombre){
+     public int numberIntent ;
+     private List<int> guesses{get;set;}
+    protected Player(string nombre){
        nameGame=nombre;
        numberIntent=0;
+       guesses= new List<int>();
     }
     public int GetLastGuess(){
-      return numberIntent;
+      int lastNumber= guesses.LastOrDefault();
+      return lastNumber;
     }
-    public void MakeGuess(){
-      bool isValid= true; 
-       while(isValid){
-        Console.Write("Escribe un número: ");
-        string? input= Console.ReadLine();
-        if (int.TryParse(input, out int guess)){
-         numberIntent=guess;
-         isValid=false;
-        }else{
-         Console.WriteLine("▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄");
-         Console.WriteLine("████▌▄▌▄▐▐▌█████");
-         Console.WriteLine("████▌▄▌▄▐▐▌▀████");
-         Console.WriteLine("▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀");
-         Console.WriteLine("Entrada inválida. Por favor ingrese un número válido.");
-        }
-
-       }
+    public void AddListGuess(int prediction){
+      guesses.Add(prediction);
     }
+    public abstract void MakeGuess();
 }

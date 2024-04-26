@@ -2,13 +2,15 @@ class Game{
     private int secretNumber{get; set;}
     private Random _random= new Random();
     private Player Player{get; set;}
+    private Player IAPlayer{get; set;}
     
     private int RandomNumberGenerator( ){
        return _random.Next(1,100);
     }
     public Game (string nameplayer){
        secretNumber= RandomNumberGenerator(); 
-       Player= new Player(nameplayer);
+       Player= new HumanPlayer(nameplayer);
+       IAPlayer= new AIPlayer("IA");
     }
     private void CheckGuess(int guess,int targetNumber){
        if (guess==targetNumber){
@@ -35,6 +37,7 @@ class Game{
        Console.WriteLine("Bienvenida "+Player.nameGame+" adivina el número que estoy pensando...entre 1 y 100");
         while (!finish){
            Player.MakeGuess();
+           IAPlayer.MakeGuess();
            CheckGuess(Player.GetLastGuess(),secretNumber);
            if (Player.GetLastGuess()==secretNumber){
             finish=true;
