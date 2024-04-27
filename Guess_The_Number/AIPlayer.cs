@@ -10,6 +10,7 @@ public class AIPlayer : Player{
     public override void MakeGuess()
     {
         int guessAI= AIGuess();
+        AddListAiGuess(guessAI);
         Console.WriteLine("--Round: Computer Player---");
         Console.WriteLine("Escribe un número:"+guessAI);
     }

@@ -9,7 +9,8 @@
            Console.WriteLine("Escribe correctamente el nombre del jugador");
         }else{
           Game Game= new Game(name);
-          Game.start_game();  
+          Game.start_game(); 
+          Game.winnerGame(); 
         }
       
     }

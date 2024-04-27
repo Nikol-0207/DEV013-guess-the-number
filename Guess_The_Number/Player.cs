@@ -1,11 +1,11 @@
  public abstract class Player{
      public string nameGame {get ; private set; }
-     public int numberIntent ;
      private List<int> guesses{get;set;}
+     private List<int> AIGuesses{get;set;}
     protected Player(string nombre){
        nameGame=nombre;
-       numberIntent=0;
        guesses= new List<int>();
+       AIGuesses= new List<int>();
     }
     public int GetLastGuess(){
       int lastNumber= guesses.LastOrDefault();
@@ -13,6 +13,12 @@
     }
     public void AddListGuess(int prediction){
       guesses.Add(prediction);
+    }
+    public int GetLastAIGuess(){
+      return AIGuesses.LastOrDefault();
+    }
+    public void AddListAiGuess(int prediction){
+      AIGuesses.Add(prediction);
     }
     public abstract void MakeGuess();
 }
