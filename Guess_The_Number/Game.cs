@@ -1,6 +1,6 @@
 
-class Game{
-    private int secretNumber{get; set;}
+public class Game{
+    public int secretNumber{get; set;}
     private Random _random= new Random();
     private Player _humanPlayer{get; set;}
     private Player _AIPlayer{get; set;}
@@ -13,7 +13,7 @@ class Game{
        _humanPlayer= new HumanPlayer(nameplayer);
        _AIPlayer= new AIPlayer("IA");
     }
-    private bool CheckGuess(int guess,int targetNumber){
+    public bool CheckGuess(int guess,int targetNumber){
        if (guess==targetNumber){
             return true;
        }
@@ -56,6 +56,7 @@ class Game{
             Console.WriteLine("░░░╚═╝░░░░╚════╝░░╚═════╝░  ░░░╚═╝░░░╚═╝░░╚═╝╚═╝░░╚══╝");
             Console.WriteLine();
             Console.WriteLine();
+            
         }else if (CheckGuess(_AIPlayer.GetLastAIGuess(),secretNumber)){
             Console.WriteLine("░██████╗░░█████╗░███╗░░░███╗███████╗  ░█████╗░██╗░░░██╗███████╗██████╗░");
             Console.WriteLine("██╔════╝░██╔══██╗████╗░████║██╔════╝  ██╔══██╗██║░░░██║██╔════╝██╔══██╗");
@@ -63,8 +64,9 @@ class Game{
             Console.WriteLine("██║░░╚██╗██╔══██║██║╚██╔╝██║██╔══╝░░  ██║░░██║░╚████╔╝░██╔══╝░░██╔══██╗");
             Console.WriteLine("╚██████╔╝██║░░██║██║░╚═╝░██║███████╗  ╚█████╔╝░░╚██╔╝░░███████╗██║░░██║");
             Console.WriteLine("░╚═════╝░╚═╝░░╚═╝╚═╝░░░░░╚═╝╚══════╝  ░╚════╝░░░░╚═╝░░░╚══════╝╚═╝░░╚═╝");
+      
         }
 
-       
+     
     }
 }
